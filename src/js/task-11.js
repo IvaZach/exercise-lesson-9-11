@@ -1,4 +1,4 @@
-// import '../css/styles_11.css';
+import '../css/styles_11.css';
 
 const refs = {
   startBtn: document.querySelector('button[data-action-start]'),
