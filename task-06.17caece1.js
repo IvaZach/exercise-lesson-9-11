@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector(".js-container");t.addEventListener("click",(function(t){if("BUTTON"!==t.target.nodeName)return;console.log(t.target.textContent)}));var e=document.querySelector(".js-add-btn"),n=6;e.addEventListener("click",(function(){var e=document.createElement("button");e.textContent="Кнопка ".concat(n),e.type="button",t.appendChild(e),n+=1}))}();
+//# sourceMappingURL=task-06.17caece1.js.map
