@@ -1,0 +1,2 @@
+const o=["a","b","c"].indexOf("a");~o?console.log("YES"):console.log("NO"),console.log(o),console.log(!!-(o+1)),console.log(!!~o),console.log(Boolean(~o));({name:"Artem",age:28,languages:{html:!1,css:!1,js:!0,ReactNative:!1},sayHello(){console.log(`My name ${this.name}`)},iKnow(){const o=Object.keys(this);for(const e of o)"function"!=typeof this[e]&&console.log(e);console.log(o)}}).iKnow();
+//# sourceMappingURL=task-21.9c0bd7b0.js.map
