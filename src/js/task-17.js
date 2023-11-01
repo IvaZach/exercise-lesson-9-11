@@ -41,8 +41,8 @@ addPost.addEventListener("click", handlerAddPost);
 function handlerAddPost() {
   formWrapper.innerHTML = `<form action="submit" class="js-form-add" style:"style="display: flex; flex-direction: column"
 "  >
-        <input type="text" name="name">
-        <textarea name="description" cols="30" rows="10"></textarea>
+        <input type="text" name="name" placeholder='Add title post'>
+        <textarea name="description" cols="30" rows="10" placeholder='Add post'></textarea>
         <button>Додати пост</button>
     </form>`;
 
